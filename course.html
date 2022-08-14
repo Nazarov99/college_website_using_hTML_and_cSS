@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="uil uil-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="uil uil-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <section class="courses">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae corporis
+                    culpa cupiditate debitis dicta eaque fuga id, magni minus mollitia omnis,
+                    praesentium quam quibusdam tempore veniam. Fugit natus nobis suscipit.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae corporis
+                    culpa cupiditate debitis dicta eaque fuga id, magni minus mollitia omnis,
+                    praesentium quam quibusdam tempore veniam. Fugit natus nobis suscipit.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae corporis
+                    culpa cupiditate debitis dicta eaque fuga id, magni minus mollitia omnis,
+                    praesentium quam quibusdam tempore veniam. Fugit natus nobis suscipit.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="">
+                <h3>World Class library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquam aperiam aut consequa</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquam aperiam aut consequa</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquam aperiam aut consequa</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h1>Enroll For Our Various Online Courses<br> Anywhere From The World</h1>
+        <a href="" class="hero-btn">CONTACTS US</a>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet
+            assumenda deleniti dignissimos eius eum expedita facilis,<br/> fugiat illum
+            itaque iure magnam, natus nulla numquam omnis possimus quae quaerat
+            reiciendis.</p>
+        <div class="icons">
+            <i class="uil uil-facebook"></i>
+            <i class="uil uil-twitter"></i>
+            <i class="uil uil-instagram"></i>
+            <i class="uil uil-linkedin"></i>
+        </div>
+        <p>Made with <i class="uil uil-heart"></i> by Easy</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        let navLinks = document.querySelector('#navLinks');
+
+        function hideMenu() {
+            navLinks.style.display = 'none';
+        }
+
+        function showMenu() {
+            navLinks.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
